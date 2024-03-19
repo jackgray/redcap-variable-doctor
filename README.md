@@ -1,6 +1,6 @@
 EQUALIZE VARIABLE NAMES
 
-usage: $0 [ -d directory ] [ -s separator ]
+usage: bash run.sh [ -d directory ] [ -s separator ]
 Where -d directory contains your config files and instrument zip file(s)
 
 example: bash run.sh -d ~/Downloads/redcap-test -s '_'
