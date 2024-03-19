@@ -1,0 +1,96 @@
+{
+    "screening": {
+        "aka": ["isf"],
+        "prefix": "isf",
+        "current": {"position": 1, "changeto": "curr"},
+        "curr": {"position": 1},
+        "meds": {"position": 0},
+        "length": {"changeto": "duration"}
+    },
+    "reconsent": {
+      "aka": ["rcf"],
+      "prefix": "rcf",
+      "reconsentor":{"changeto": "administrator"},
+      "document": {"changeto": "fileupload"}
+    },
+    "phi": {
+      "prefix": "phi",
+      "socialnum": {"changeto": "ssn"},
+      "address": {"changeto": "addr"},
+      "emergency": {"changeto": "emerg"},
+      "home": {"position": 1},
+      "cell": {"position": 1},
+      "work": {"position": 1},
+      "permiss": {"position": 2, "changeto": "consent"},
+      "phone": {"position": 2}
+    },
+    "currdrugs": {
+      "aka": ["cddi", "curr", "currdrugs"],
+      "prefix": "cddi",
+      "cddi": {"position": -9},
+      "currdrugs": {"position": -9, "changeto": "cddi"},
+      "curr": {"position": -9, "changeto": "cddi", "conflicts": ["mini", "ftnd"]},
+      "cocaine": {"position": 0, "changeto": "coc"},
+      "coc": {"position": 0},
+      "inhal": {"position": 0},
+      "caffeine": {"position":1, "changeto": "caff"},
+      "coffee": {"position": 1, "changeto": "cof"},
+      "soda": {"position": 1},
+      "her": {"position": 0},
+      "alc": {"position": 0},
+      "thc": {"position": 0},
+      "opioids": {"position": 0, "changeto": "opioid"},
+      "otheropioid": {"position": 0},
+      "hall": {"position": 0, "changeto": "hall"},
+      "tranq": {"position": 0, "changeto": "tranq"},
+      "nicotine": {"position": 0, "changeto": "nic"},
+      "exact": {"position": 2, "changeto": "exac"},
+      "amount": {"position": 4, "changeto": "amt"},
+      "otherdrugs": {"position": 0, "changeto": "anydrugs"},
+      "used": {"position": 1, "changeto": "use"},
+      "last": {"position":2},
+      "drugs": {"position": -9},
+      "other": {"position": 1},
+      "past30days": {"position":9, "changeto": "past30"},
+      "opioid": {"position": 1},
+      "vit": {"position": 1},
+      "amt": {"position": 3},
+      "unit": {"position": 5},
+      "tx": {"position": 0},
+      "daily": {"position": 2},
+      "dose": {"position": 3},
+      "mat": {"position": -9},
+      "sleep": {"position": 0},
+      "time": {"position": 1},
+      "fallasleep": {"position": 2},
+      "wakeup": {"position": 2},
+      "combined": {"position": 3},
+      "ampm": {"position": 3},
+      "inbed": {"position": 2},
+      "money": {"position": 6},
+      "check": {"position": 8},
+      "past30": {"position": 9},
+      "prdct": {"position": 9},
+      "otherunit": {"position": 9},
+      "drink": {"changeto": "ever"},
+      "details": {"position": 6}
+  },
+    "demographics": {
+      "prefix": "dem"
+    },
+    "medical_history": {
+      "instrument_name": "medical_history_questionnaire_mhq",
+      "prefix": "mhq",
+      "othernames": ["mhq", "med"],
+      "med": { "position": -9, "changeto": "" }
+    },
+    "mpq": {
+      "instrument_name": "multidimensional_personality_questionnaire_mpqbf",
+      "prefix": "mpqbf",
+      "othernames": "mpq-bf"
+    },
+    "general": {
+      "past30days": { "changeto": "past30" }
+    }
+  }
+  

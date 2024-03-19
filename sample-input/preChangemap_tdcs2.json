@@ -1,0 +1,66 @@
+{
+    "screening": {
+        "daily_dose": "dose_daily",
+        "past6mo_meds": "meds_past6mo",
+        "used_drugs": "drugs_used",
+        "primary_drug": "drugs_primary",
+        "metal_yn": "mri_metal_yn",
+        "tattoo_safety": "mri_tattoos"
+    },
+    "phi": {
+        "cellphone": "phone_cell",
+        "homephone": "phone_home",
+        "workphone": "phone_work",
+        "permisshome": "home_consent",
+        "permisswork": "work_consent"
+    },
+    "currdrugs": {
+        "other_opioid": "otheropioid",
+        "otheropioids": "otheropioid",
+        "last_used": "lastuse",
+        "energy_drink": "engdrink",
+        "fall_asleep": "time_fallasleep",
+        "wake_up": "wakeup",
+        "bed": "inbed",
+        "sdetails": "details",
+        "past30days": "past30",
+        "30days": "past30",
+        "caffiene": "caffeine",
+        "unit_other": "otherunit",
+        "description_2": "desc2",
+        "description": "desc",
+        "usedrugsother": "anydrugs",
+        "whichdrug": "drug",
+        "length": "len",
+        "alcohol": "alc",
+        "currdrugs_daily_interview": "curr"
+        
+    },
+    "general": {
+        "other_opioid": "otheropioid",
+        "otheropioids": "otheropioid",
+        "last_used": "last",
+        "energy_drink": "engdrink",
+        "fall_asleep": "time_fallasleep",
+        "wake_up": "wakeup",
+        "bed": "inbed",
+        "lastuse": "last",
+        "sdetails": "details",
+        "past30days": "past30",
+        "30days": "past30",
+        "pastmonth": "past30",
+        "caffiene": "caffeine",
+        "unit_other": "otherunit",
+        "description_2": "desc",
+        "description": "desc",
+        "despriction": "desc",
+        "units": "unit",
+        "used_otherdrugs": "anydrugs"  
+    },
+    "medical_history": {
+        "med":"med_"
+    },
+    "mpq": {
+        "m": "mpqbf"
+    }
+}
